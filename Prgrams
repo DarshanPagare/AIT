@@ -1,0 +1,2397 @@
+Shri Khanderai Pratishthan’s
+DNYANSAGAR INSTITUTE OF MANAGEMENT &
+RESEARCH
+Approved by AICTE, New Delhi, Affiliated to Savitribai Phule Pune
+University
+
+
+
+
+Academic Year 2023-24 FYMCA –SEM II
+Sub: Advanced Internet Technology Part A Submission
+INDEX
+
+Sr.No	Name of the Program	Date	Page
+No	Sign
+
+
+
+
+1	Design the following web page using HTML5 sematic elements..
+ 			
+
+
+
+
+2	Design a student registration form which includes the following fields
+Student name, address, contact number, email-Id, DOB,(date, month,week,year) username, password, favourite color, upload resume.(multiple files). In the above form all the fields are mandatory.
+When the form is loaded then the mouse pointer
+should blink on the first textbox.			
+
+
+
+
+
+
+3	
+Design the following web page using canvas elements
+1. Design the following web application for Gaana.com.
+Gaana.com
+
+ 
+
+All Trending Songs	New Songs	Old Songs
+		
+	Audio
+
+
+Video	Video will be play here				
+
+
+4	Design a News Paper application by using all semantic elements			
+ 
+
+
+
+5	) Design the following shape by using SVG
+
+   			
+
+
+
+
+
+
+
+
+
+6	) Design the following web page [UseFont,Text and color Properties]
+Breakfast-Color-red,letter spacing 5px,
+Honey Almond – Text color-blue, letter spacing5px,word spacing 4px, italic, Calibri font Belgian Waffle-Font Family-Cursive,letter spacing 4px,color-Pink
+Use navigation for all the items –The image should be displayed in that page only.
+ 
+			
+
+7	Draw the following diagram by using svg
+
+ 			
+
+
+
+8	Design the following greeting card [Use radial
+gradient
+and Linear
+
+
+
+gradient]			
+
+9	Design an application for following emoji’s by using canvas			
+
+10	Design the following web page using Canvas tag			
+ 
+Q.1)	Design the following web page using HTML5 sematic elements. Ans.
+Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Website</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+/* styles.css */ body { font-family: Arial, sans-serif;
+margin: 0; padding:
+0;
+}
+header
+{
+background-color: #333; color:	#fff; padding: 10px 0;
+text-align: center;
+} header h1
+{ margin: 0;
+} nav ul { list-style- type: none; padding: 0;
+} nav ul li { display: inline; margin: 0 10px;
+} nav ul li a { color: #fff;
+text-decoration: none;
+} main { display: flex;
+}
+#featured { flex:
+2;
+padding: 20px;
+}
+#articles { flex:
+3;
+padding: 20px;
+} aside { flex: 1;
+background-color: #f2f2f2; padding: 20px;
+}
+footer { background-color: #333; color: #fff; text- align: center;
+ 
+padding: 10px 0; } footer ul { list-style- type: none; padding: 0;
+} footer ul li { display: inline;
+margin: 0 10px; }
+footer ul li a {
+color: #fff; text-decoration: none;
+}
+.logo { position: absolute; width: 100px; padding: 17px; font-size: 36px; top: 0;
+}
+.call { background-color: aliceblue; top: 6px; width: 30px; position: absolute; right: 25px; border- radius: 35px; padding: 11px; border: 1px solid cornflowerblue;
+}
+.ratting { display: flex; width: 160px; position: absolute; right: 200px; border-radius:
+15px; top: 4px; background- color: aliceblue;
+padding: 17px; } article{
+padding: 10px; border-radius: 10px; border: 1px solid; }
+</style>
+</head>
+<body>
+<header>
+<div class="logo">DIMR</div>
+<nav>
+<ul>
+<li><a href="#">Product</a></li>
+<li><a href="#">Shops</a></li>
+<li><a href="#">Blog</a></li>
+</ul>
+</nav>
+<div class="ratting">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free
+6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195
+150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3
+24.2 12.9
+31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-
+31.3L438.5 329 542.7
+ 
+225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7
+300.4 0 288.1 0s-23.4 7-28.8 18L195
+150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2
+12 3 24.2 12.9
+31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-
+31.3L438.5 329 542.7
+225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7
+300.4 0 288.1 0s-23.4 7-28.8 18L195
+150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2
+12 3 24.2 12.9
+31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-
+31.3L438.5 329 542.7
+225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9
+18z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font
+Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7
+300.4 0 288.1 0s-23.4 7-28.8 18L195
+150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2
+474.7c-2 12 3 24.2 12.9
+31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-
+31.3L438.5 329 542.7
+225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9
+18z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free
+6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024
+Fonticons, Inc.--><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6
+19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-
+73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-
+15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4
+187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-
+56.2c7.1-3.8 15.6-3.8 22.6 0l105.2
+56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-
+13.3L287.9	79z"/></svg>
+</div>
+<div class="call"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M164.9
+24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1
+30.2 0 46 0 64C0 311.4 200.6
+512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-
+35.2-2.1-46.3 11.6L304.7
+368C234.3	334.7	177.3	277.7	144	207.3L193.3	167c13.7-11.2	18.4-30	11.6-46.3l-40-
+96z"/></svg></div>
+ 
+</header>
+<main>
+<section id="featured">
+<article>
+<h2>Product 1</h2>
+<img src="placeholder.jpg" alt="Featured Image">
+<p>Description of the featured article.</p>
+</article>
+<br>
+<article>
+<h2>Product 2</h2>
+<img src="placeholder.jpg" alt="Featured Image">
+<p>Description of the featured article.</p>
+</article>
+<br>
+<article>
+<h2>Product 3</h2>
+<img src="placeholder.jpg" alt="Featured Image">
+<p>Description of the featured article.</p> </article>
+</section>
+<section id="articles">
+<article>
+<h2>Article Title 1</h2>
+<img src="placeholder.jpg" alt="Article Image">
+<p>Description of the article.</p>
+</article>
+<br>
+<article style="height: 188px; padding: 76px;">
+<h2>Article Title 2</h2>
+<img src="placeholder.jpg" alt="Article Image">
+<p>Description of the article.</p>
+</article>
+</section>
+</main>
+<footer>
+<p>&copy; 2024 om shewale Website. All rights reserved.</p>
+<ul>
+<li><a href="#">Facebook</a></li>
+<li><a href="#">Twitter</a></li>
+<li><a href="#">Instagram</a></li>
+</ul>
+</footer>
+</body>
+</html>
+ 
+
+ 
+
+
+
+ 
+Q.2)	Design a student registration form which includes the following fields Student name, address, contact number, email-Id, DOB,(date, month,week,year) username, password, favourite color, upload resume.(multiple files).
+In the above form all the fields are mandatory.
+When the form is loaded then the mouse pointer should blink on the first textbox. Ans.
+Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+<style>
+.mandatory::after
+{ content: "*"; color: red;
+} body
+{
+font-family: Arial, sans-serif; margin: 0; padding:
+0;
+} h2 { text-align:
+center;
+}	form	{	max-width:
+500px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px;
+} form div { margin- bottom: 10px;
+} label { display: inline- block; width: 150px; font-weight: bold;
+}	input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="password"], input[type="color"], input[type="file"] { width: calc(100% - 160px); padding: 5px;
+border: 1px solid #ccc; border-radius: 3px;
+}
+input[type="file"] { width: auto;
+}
+ 
+button[type="submit"]			{ display:		block;	width: 100%;	padding:		10px; background-color: #007bff;
+color: #fff; border: none;	border-
+radius:	3px; cursor: pointer;
+}
+button[type="submit"]:hover { background-color: #0056b3;
+}
+.mandatory::after
+{	content:	"*"; color: red; }
+</style>
+<script> window.onload = function() { document.getElementById("student_name").focus();
+};
+</script>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="#" method="POST" enctype="multipart/form-data">
+<div>
+<label for="student_name">Student Name<span class="mandatory"></span>:</label> <input type="text" id="student_name" name="student_name" required> </div>
+<div>
+<label	for="address">Address<span	class="mandatory"></span>:</label>
+<input type="text" id="address" name="address" required>
+</div>
+<div>
+<label for="contact_number">Contact Number<span class="mandatory"></span>:</label> <input type="tel" id="contact_number" name="contact_number" required> </div>
+<div>
+<label for="email">Email<span class="mandatory"></span>:</label>
+<input type="email" id="email" name="email" required>
+</div>
+<div>
+<label for="dob">Date of Birth<span class="mandatory"></span>:</label> <input type="date" id="dob" name="dob" required> </div>
+<div>
+<label for="username">Username<span class="mandatory"></span>:</label>
+<input type="text" id="username" name="username" required>
+</div>
+<div>
+<label for="password">Password<span class="mandatory"></span>:</label>
+<input type="password" id="password" name="password" required> </div>
+ 
+<div>
+<label	for="favorite_color">Favorite	Color<span	class="mandatory"></span>:</label>
+<input type="color" id="favorite_color" name="favorite_color" required>
+</div><div>
+<label for="resume">Upload Resume<span class="mandatory"></span>:</label> <input type="file" id="resume" name="resume[]" multiple required> </div>
+<div>
+<button type="submit">Submit</button>
+</div>
+</form>
+</body>
+</html>
+Output:
+ 
+Q.3)	Design the following web page using canvas elements Ans. Code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SVG House Drawing</title>
+<style> body { margin: 0; display: flex; justify- content: center; align- items: center; height: 100vh;
+background-color: #f0f0f0;
+}
+.window { border: 5px solid #444;	padding:	20px; background-color: #f0f0f0;		border-radius: 10px;
+}
+.window svg { display: block;
+}
+</style>
+</head>
+<body>
+<div class="window">
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<polygon points="50,150 200,50 350,150" fill="#333" />
+
+<rect x="50" y="150" width="300" height="150" fill="#add8e6" />
+<rect x="170" y="230" width="60" height="70" fill="#fff" />
+<rect x="90" y="180" width="60" height="60" fill="#fff" />
+<rect x="250" y="180" width="60" height="60" fill="#fff" />
+<rect x="300" y="90" width="30" height="60" fill="#ff0000" />
+<rect x="280" y="60" width="70" height="30" fill="#ff0000" /> </svg>
+</div>
+</body>
+</html>
+ 
+
+ 
+ 
+Q.4)	Design the following Time table using HTML5 and CSS3
+a.	Use “logo” at left side of header
+b.	Write college name and change the font and font size and color of text. And display at center.
+c.	Change color of footer and write given text.
+d.	Change the font size , font name and color of MCA-1 Class Time Table. Ans.
+Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Table</title>
+<link rel="stylesheet" href="styles.css">
+<style> body
+{
+margin: 0;
+font-family: Arial, sans-serif;
+} header { background- color: #333;
+color: #fff; padding: 25px 0; display: flex; align-items:	center; justify-content: center;
+}
+.logo { width: 50px; height: auto; position: absolute; left: 42px; top: 13px;
+}
+.college-name { font-size: 24px; color: #fff; margin: 0;
+}
+.time-table { padding: 20px;
+}.class-name { font-size:
+20px;
+font-family: "Times New Roman", Times, serif; /* Change font */ color: #333; /* Change color */
+}table { width: 100%; border-collapse: collapse; margin-top: 10px;
+}th, td { padding:
+8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}th	{	background-color:
+#f2f2f2;
+} footer { background-color: #007bff; /* Change footer color */ color: #fff; text-align: center; padding: 10px 0;
+}.footer-text	{ font-size: 14px; }
+</style>
+</head>
+<body>
+ 
+<header>
+<img src="download.jpeg" alt="Logo" class="logo">
+<h1 class="college-name">DIMR Pune</h1>
+</header>
+<section class="time-table">
+<h2 class="class-name">MCA-1 Class Time Table</h2>
+<table>
+<tr>
+<th>Day</th>
+<th>9:00-10:00</th>
+<th>10:00-11:00</th>
+<th>11:00-11:15</th>
+<th>11:15-12:15</th>
+<th>12:15-1:15</th>
+<th>1:15-2:00</th>
+<th>2:00-3:00</th>
+<th>4:00-5:00</th>
+</tr>
+<tr>
+<td>Monday</td>
+<td>Python</td>
+<td>SPM</td>
+<td>Interval</td>
+<td>OT</td>
+<td>AIT</td>
+<td>Interval</td>
+<td>Ad DBMS</td>
+<td>Lab</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>Python</td>
+<td>SPM</td>
+<td>Interval</td>
+<td>OT</td>
+<td>AIT</td>
+<td>Interval</td>
+<td>Ad DBMS</td>
+<td>Lab</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>Python</td>
+<td>SPM</td>
+<td>Interval</td>
+<td>OT</td>
+<td>AIT</td>
+<td>Interval</td>
+<td>Ad DBMS</td>
+<td>Lab</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>Python</td>
+<td>SPM</td>
+<td>Interval</td>
+<td>OT</td>
+<td>AIT</td>
+<td>Interval</td>
+<td>Ad DBMS</td>
+<td>Lab</td>
+</tr>
+ 
+<tr>
+<td>Friday</td>
+<td>Python</td>
+<td>SPM</td>
+<td>Interval</td>
+<td>OT</td>
+<td>AIT</td>
+<td>Interval</td>
+<td>Ad DBMS</td>
+<td>Lab</td>
+</tr><tr>
+<td>Saturday</td>
+<td>Python</td>
+<td>SPM</td>
+<td>Interval</td>
+<td>OT</td>
+<td>AIT</td>
+<td>Interval</td>
+<td>Lab</td>
+<td>Lab</td>
+</tr>
+</table>
+</section>
+<footer>
+<p class="footer-text">Copyright &copy; 2024 om shewale. All rights reserved.</p> </footer>
+</body>
+</html>
+
+Output:
+ 
+Q.5)	Design the following RESUME using HTML5 and CSS3.
+a.	Change the background color, font and font size and color of text. And display at center in header.
+b.	Change color of footer and write given text. Ans.
+Code:-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume</title>
+<link rel="stylesheet" href="styles.css">
+<style> body
+{
+margin: 0; padding:
+0;
+font-family: Arial, sans-serif; background-color: #f0f0f0; color: #333;
+} header { background-color: #007bff; color: #fff;
+text-align: center; padding: 20px 0;
+}
+.header-content { max-width: 600px; margin: 0 auto;
+}
+.resume-title	{	font-size:
+36px; margin: 0;
+}
+.resume-subtitle { font-size:
+24px;margin: 0;
+}.resume-section { max- width: 600px; margin:
+20px  auto;  padding:
+20px;	background- color: #fff;
+}.resume-section h2 { margin-top: 0;
+}footer { background-color:
+#333;
+color: #fff; text- align: center; padding: 10px 0;
+}.footer-text { font-size: 14px; margin: 0;}
+</style>
+</head>
+<body>
+<header>
+<div class="header-content">
+<h1 class="resume-title">Shoaib Shaikh</h1>
+<p	class="resume-subtitle">Front-end	Developer</p>
+</div>
+</header>
+<section class="resume-section">
+<h2>Experience</h2>
+<ul>
+ 
+<li>Company A - Front-end Developer (2024-Present)</li>
+<li>Company B - Junior Developer (2024-2025)</li> </ul>
+</section>
+<section class="resume-section">
+<h2>Education</h2>
+<ul>
+<li>MCA- SPP University (2024)</li>
+</ul>
+</section>
+<section class="resume-section">
+<h2>Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>React.js</li>
+<li>Bootstrap</li>
+<li>Git</li>
+</ul>
+</section>
+<section class="resume-section">
+<h2>Projects</h2>
+<ul>
+<li>Portfolio Website - Built a responsive portfolio website using HTML, CSS, and JavaScript</li> <li>E-commerce Website - Developed an e-commerce website using React.js and Bootstrap</li>
+</ul>
+</section>
+<section class="resume-section">
+<h2>Interests</h2>
+<ul>
+<li>Web Development</li>
+<li>UI/UX Design</li>
+<li>Photography</li>
+<li>Hiking</li>
+</ul>
+</section>
+<footer>
+<p  class="footer-text">Contact:  Prashant1@gmail.com  |  Phone:  123-456-7890</p>
+</footer>
+</body>
+</html>
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+Q.6)	Design Student Registration form using HTML5 and CSS3form new elements. (Use all new form input controls).
+a. Add proper header and footer to web page. Display “Student Registration Form” in header and use CSS3 to change background color. b. apply background- image to web page.
+Ans. Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+<style>
+.mandatory::after { content: "*"; color: red;
+} body
+{
+font-family: Arial, sans-serif; margin: 0; padding:
+0;
+} h2 { text-align: center;
+} form { max-width: 500px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px;
+} form div { margin- bottom: 10px;
+} label { display: inline- block; width: 150px; font-weight: bold;
+} input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="password"]
+, input[type="color"], input[type="file"] {
+width: calc(100% - 160px); padding: 5px; border: 1px solid #ccc; border-radius: 3px;
+}
+input[type="file"] { width: auto;
+}
+button[type="submit"] { display:		block;	width: 100%;	padding:		10px; background-color: #007bff;
+color: #fff; border: none;	border-
+radius:	3px; cursor: pointer;
+}
+ 
+button[type="submit"]:hover	{	background- color: #0056b3;
+}
+.mandatory::after { content: "*"; color:
+red; }
+</style>
+<script>	window.onload	= function() {
+document.getElementById("student_name").focus();
+};
+</script>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="#" method="POST" enctype="multipart/form-data">
+<div>
+<label for="student_name">Student Name<span class="mandatory"></span>:</label>
+<input type="text" id="student_name" name="student_name" required>
+</div>
+<div>
+<label for="address">Address<span class="mandatory"></span>:</label>
+<input type="text" id="address" name="address" required>
+</div>
+<div>
+<label for="contact_number">Contact Number<span class="mandatory"></span>:</label>
+<input type="tel" id="contact_number" name="contact_number" required>
+</div>
+<div>
+<label for="email">Email<span class="mandatory"></span>:</label>
+<input type="email" id="email" name="email" required>
+</div>
+<div>
+<label for="dob">Date of Birth<span class="mandatory"></span>:</label>
+<input  type="date"  id="dob"  name="dob"  required>
+</div>
+<div>
+<label	for="username">Username<span	class="mandatory"></span>:</label>
+<input type="text" id="username" name="username" required>
+</div>
+<div>
+<label	for="password">Password<span class="mandatory"></span>:</label> <input type="password" id="password" name="password" required> </div>
+<div>
+<label for="favorite_color">Favorite Color<span class="mandatory"></span>:</label>
+<input  type="color"  id="favorite_color"  name="favorite_color"  required>
+</div>
+<div>
+<label for="resume">Upload Resume<span class="mandatory"></span>:</label> <input type="file" id="resume" name="resume[]" multiple required> </div>
+<div>
+<button	type="submit">Submit</button>
+</div>
+</form>
+</body>
+</html>
+ 
+
+ 
+ 
+Q.7)	Design the web page using HTML5 and CSS3 semantic elements Ans. Code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Table Example</title>
+<style> table
+{
+width: 100%;
+border-collapse: collapse;
+}
+th, td { border: 1px solid #dddddd; padding: 8px; text-align: left;
+}
+th		{	background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+<h2>Ganna.com</h2>
+<table>
+<thead>
+<tr>
+<th>Movie name</th>
+<th><img style="width: 200px;" src="jung.jpg.crdownload"> jungal book</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td>musice</td>
+<td><audio controls>
+<source src="https://youtu.be/YkRsL8kx7YM?si=OLmvpHKoq49NW5MW" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+</tr>
+<tr>
+<td>Movie name</td>
+<td><video controls>
+<source src="video.mp4" type="video/mp4"> Your browser does not support the video element.
+</video></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+ 
+
+ 
+ 
+Q.8 Design a News Paper application by using allsemantic elements
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Newspaper Application</title>
+<style> body
+{
+font-family: Arial, sans-serif; margin: 0; padding:
+0;
+}
+
+header { background-color: #333;
+color:	#fff; padding: 20px 0; text-align: center;
+}
+
+header h1 { margin:
+0; font-size:
+24px;
+}
+
+nav ul { list-style-type: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline; margin-right: 20px;
+}
+nav ul li a { text- decoration: none; color: #fff; font- weight: bold;
+}
+
+main {
+padding: 20px;
+}
+
+section {
+margin-bottom: 40px;
+}
+article {
+ 
+border: 1px solid #ccc; border-radius: 5px;
+padding: 20px;
+}
+
+article h2 {
+margin-top:	0; margin-bottom: 10px; font-size: 20px;
+}
+
+footer {
+background-color: #333; color: #fff; text-align: center;
+padding: 10px 0;
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1>Newspaper Name</h1>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#world">World</a></li>
+<li><a href="#politics">Politics</a></li>
+<li><a href="#business">Business</a></li>
+<li><a href="#sports">Sports</a></li>
+<li><a href="#entertainment">Entertainment</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="home">
+<article>
+<h2>Latest News</h2>
+<img style="width: 300px; padding: 10px;" src="tenva.avif"
+<p>The Maharashtra Forest Department has booked a sugarcane-cutting worker and his two minor sons for allegedly chopping and stealing claws and one paw of a dead sub-adult leopard. The carcass of the 10-month-old female leopard was found in a sugarcane field in Vadgaon Shinde village near Pune on February 8.
+
+As per officials from the Pune Division of the Maharashtra Forest Department, the autopsy showed that the big cat may have died in a suspected dog attack. However, during the autopsy, it also came to light that some nails of the forelegs of the leopard had been plucked and one of the hindleg paws had been cut with a sharp weapon.
+
+A probe was launched by the forest department officials and a dog squad was brought to
+ 
+the location. Based on the initial clues and building on the information obtained by some sugarcane- cutting workers, it came to light that the man and his two teenage sons were involved.
+The 35-year-old sugarcane-cutting worker and his two minor sons aged 14 and 16 were questioned and four leopard nails and the paw were recovered from them. Investigators said the three had found the dead leopard a couple of days before and had plucked its nails and one paw to make lockets. They have been booked under the Wildlife Protection Act.</p> </article>
+</section>
+
+<section id="world">
+<article>
+<h2>World News</h2>
+<img src="pak.avif">
+<p>Jailed Imran Khan scored a century without a bat, as independent candidates backed by
+his party, the PTI (Pakistan Tehreek-e-Insaf), won 101 seats in Pakistan’s parliament, the National Assembly.
+
+PTI got more seats than the two main established parties, which have the backing of the Pakistan Army. Pakistan Muslim League (N) led by three-time Prime Minister Nawaz Sharif got 75 seats, while the Pakistan Peoples Party (PPP) led by the Bhutto-Zardari family got 54 seats, according to the final tally released by the Election Commission of Pakistan.
+
+Independently, none of the three parties can prove a simple majority in the National Assembly when it is called in a few days.
+
+Such an outcome poses a vexed question of whom does New Delhi talk to in Pakistan? It may be futile to engage with the civilian government. In realpolitik terms, this means the most effective person to talk to is Pakistan Army chief General Asim Munir — who wields influence over the political actors.</p>
+</article>
+</section>
+
+<section id="politics">
+<article>
+<h2>Politics</h2>
+<p>Content of politics news...</p> </article>
+</section>
+<section id="business">
+<article>
+<h2>Business News</h2>
+<p>Content of business news...</p>
+</article>
+</section>
+
+<section id="sports">
+<article>
+<h2>Sports News</h2>
+<p>Content of sports news...</p>
+</article>
+</section>
+ 
+<section id="entertainment">
+<article>
+<h2>Entertainment News</h2>
+<p>Content of entertainment news...</p>
+</article>
+</section>
+</main>
+<footer>
+<p>&copy; 2024 Newspaper Name. All rights reserved.</p> </footer>
+</body>
+</html>
+ 
+Q.9 Design the following shape by using SVG
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Star SVG</title>
+</head>
+<body>
+<svg	width="100"	height="100"	viewBox="0	0	24	24"	fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2L14.0938 8.85156L21.5 9.60156L16.25 14.6016L17.7188 21.3984L12 18.3984L6.28125 21.3984L7.75 14.6016L2.5 9.60156L9.90625 8.85156L12 2Z" fill="#FFD700"/>
+</svg>
+<svg width="200" height="300" viewBox="0 0 100 150" xmlns="http://www.w3.org/2000/svg">
+<!-- Tree trunk -->
+<rect x="45" y="70" width="10" height="30" fill="#8B4513"/>
+<!-- Tree branches -->
+<polygon points="50,40 70,70 30,70" fill="#228B22"/>
+<polygon points="50,30 75,60 25,60" fill="#228B22"/>
+<polygon points="50,20 80,50 20,50" fill="#228B22"/>
+</svg>
+<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<!-- Head -->
+<circle cx="50" cy="30" r="20" fill="#8B4513"/>
+<!-- Body -->
+<ellipse cx="50" cy="65" rx="25" ry="40" fill="#8B4513"/>
+<!-- Eyes -->
+<circle cx="45" cy="25" r="3" fill="#000"/>
+<circle cx="55" cy="25" r="3" fill="#000"/>
+<!-- Nose -->
+<circle cx="50" cy="33" r="2" fill="#000"/>
+<!-- Mouth -->
+<path d="M45 37 Q 50 40 55 37" stroke="#000" fill="none"/> <!-
+- Ears -->
+<path d="M30 25 Q 35 10 45 25 T 60 25" stroke="#8B4513" fill="none"/>
+<path d="M70 25 Q 65 10 55 25 T 40 25" stroke="#8B4513" fill="none"/> </svg>
+</body>
+</html>
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q.11 Draw the following diagram by using svg
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Traffic Light SVG</title>
+</head>
+<body>
+<svg width="200" height="400" xmlns="http://www.w3.org/2000/svg">
+<!-- Traffic light body -->
+<rect x="50" y="50" width="100" height="300" fill="#aaa" stroke="#000" stroke-width="2"/>
+<!-- Red light -->
+<circle cx="100" cy="100" r="30" fill="red"/>
+<!-- Yellow light -->
+<circle cx="100" cy="200" r="30" fill="yellow"/>
+<!-- Green light -->
+<circle cx="100" cy="300" r="30" fill="green"/> </svg>
+</body>
+</html>
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+1)	Write a menu-driven program in PHP to perform the following operations on associative arrays:
+i.	Sort the array by values (changing the keys) in ascending, descending order.
+ii.	Also, sort the array by values without changing the keys. iii. Find the intersection of two arrays. iv. Find the union of two arrays.
+
+
+Code:
+<html>
+<body>
+<form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>"> Select options:
+
+<input type="radio" value="Sort the keys" name="d1">Sorting of Keys</input>
+
+
+<input type="radio" value="Sort the values" name="d1">Sorting of values</input>
+
+
+<input type="radio" value="Merge" name="d1">Merge the Arrays</input>
+
+
+<input type="radio" value="Intersection" name="d1">Intersection of two Arrays</input>
+
+
+<input type="radio" value="Union" name="d1">Union of two Arrays</input>
+
+
+<input type="radio" value="Difference" name="d1">Difference of two Arrays</input>
+
+
+<input type="submit">
+ 
+</form>
+<?php echo "
+Associative ARRAY.1.	";
+$a = array("one"=>"1","two"=>"2","three"=>"3"); echo "
+Associative ARRAY.2......
+";
+$a1 = array("four"=>"4","two"=>"2","six"=>"6"); if($_SERVER["REQUEST_METHOD"] == "POST")
+{
+$op=$_POST['d1'];
+
+
+if($op == 'Sort the keys')
+{ echo"Ascending order
+"; sort($a); foreach($a as $k => $v)
+{ echo "Key $k Value
+$v
+"; } echo"Descending order
+"; rsort($a); foreach($a as $k => $v)
+{ echo "Key $k Value
+$v ";
+} }
+ 
+else if($op == 'Sort the values')
+{
+echo"Ascending order "; asort($a); foreach($a as $k => $v) { echo "Key $k Value $v
+"; } echo"Descending order
+"; arsort($a); foreach($a as $k => $v) { echo "Key $k Value $v
+";
+} } else if($op == 'Odd elements')
+{ echo "Odd elements"; function test_odd($var) { return ($var &1);
+}
+print_r(array_filter($a,"test_odd"));
+} else if($op
+=='Multisort')
+{
+$b1=array_multisort($a,$a1); print_r($b1);
+} else if($op =='Merge') { print_r(array_merge($a,$a1))
+;
+} else if($op
+=='Intersection')
+{
+ 
+$r = array_intersect($a1,$a); print_r($r); } else if($op
+=='Union')
+{
+$b=array_unique(array_merge($a,$a1)); print_r($b); } else if($op
+=='Difference') {
+$b1=array_diff($a,$a1); print_r($b1);
+}
+}
+?>
+</body>
+</html>
+
+OutPut:
+
+ 
+2)	Write a PHP script to perform arithmetic operations on two numbers. Write a PHP function to display the result. (Use the concept of function and default parameters)
+Code:
+<?php
+
+
+// Function to perform arithmetic operations and display the result function calculate($num1, $num2, $operation = '+') {	switch ($operation) {
+case '+':
+$result = $num1 + $num2;	echo "Addition: $num1 + $num2 = $result\n";
+break;
+
+case '-':
+$result = $num1 - $num2;	echo
+
+"Subtraction: $num1 - $num2 = $result\n"; break;	case '*':
+$result = $num1 * $num2;	echo "Multiplication: $num1 * $num2 = $result\n";
+break;
+
+ 
+case '/':
+ 
+
+
+if ($num2 != 0) {
+$result = $num1 / $num2;	echo
+ 
+
+"Division: $num1 / $num2 = $result\n";
+} else {
+echo "Error: Division by zero\n";
+ 
+}
+break;
+
+default:
+echo "Invalid operation\n";
+
+}
+}
+
+
+
+// Sample numbers
+$number1 = 10;
+$number2 = 5;
+
+
+// Perform arithmetic operations
+calculate($number1, $number2); // Addition (default operation) calculate($number1, $number2, '-'); // Subtraction calculate($number1,
+$number2, '*'); // Multiplication calculate($number1, $number2, '/'); // Division
+
+
+?>
+ 
+Output:
+ 
+3.	Write PHP program to perform the following operations on Indexed Array:
+a)	Check the array element is positive or negative
+b)	Calculate the average of array elements
+c)	Calculate the sum of array elements
+
+
+Code:
+<?php
+
+
+// Function to check if an array element is positive or negative function checkPositiveNegative($array) {	foreach ($array as $element) {	if ($element > 0) {
+echo "$element is positive.\n</br>";
+} elseif ($element < 0) {	echo "$element is negative.\n</br>";
+} else {	echo "$element is zero.\n</br>";
+}
+
+}
+}
+
+
+
+// Function to calculate the average of array elements function calculateAverage($array) {
+$sum = array_sum($array);	$count = count($array);	if ($count > 0) {	$average =
+ 
+$sum / $count;	echo "Average of array elements: $average\n";
+} else {	echo "Array is empty\n</br>";
+}
+
+}
+
+
+// Function to calculate the sum of array elements function calculateSum($array) {	$sum = array_sum($array);	echo "Sum of array elements: $sum\n</br>";
+}
+
+// Sample indexed array
+$numbers = array(5, -3, 9, -2, 0, 7);
+
+
+// Perform operations echo "a) Check if array elements are positive or negative:\n</br>"; checkPositiveNegative($numbers); echo "\n</br>";
+
+echo "b) Calculate the average of array elements:\n</br>"; calculateAverage($numbers); echo "\n</br>";
+
+echo "c) Calculate the sum of array elements:\n</br>"; calculateSum($numbers);
+
+
+?>
+ 
+
+
+Output:
+
+
+ 
+
+4.	Write a menu-driven program in PHP to perform the following operations on string:
+i) Find the length of a string ii) Convert a string into uppercase iii) Count the number of words in a string code:
+<?php
+
+
+// Sample string
+$string = "This is a shoaib Shaikh";
+
+
+// Function to find the length of a string function findStringLength($str) {
+return strlen($str);
+
+}
+
+
+// Function to convert a string into uppercase function convertToUppercase($str) {
+return strtoupper($str);
+
+}
+
+
+// Function to count the number of words in a string with line breaks function countWordsWithBreaks($str) {
+return str_word_count($str);
+
+}
+ 
+// Perform operations on the sample string echo "Length of the string: " . findStringLength($string) . "<br>"; echo "Uppercase string: " . convertToUppercase($string) . "<br>";
+echo "Number of words in the string: " . countWordsWithBreaks($string) . "<br>";
+
+
+?>
+Output:
+ 
+
+
+
+
+5.	Create a form to accept student information (name, class, address). Once the student information is accepted, accept marks in next form (Java, PHP, ST, IT, practl, and project). Display the mark sheet for the student the next form containing name, class, marks of the subject, total and percentage (Use $ COOKIE).
+Code:
+Index.php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Information</title>
+</head>
+<body>
+<h2>Student Information</h2>
+<form action="marks.php" method="post">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required><br><br>
+
+
+<label for="class">Class:</label>
+<input type="text" id="class" name="class" required><br><br>
+
+
+<label for="address">Address:</label>
+<input type="text" id="address" name="address" required><br><br>
+ 
+
+
+<input type="submit" value="Submit">
+</form>
+</body>
+</html> OutPut:
+
+
+
+
+
+Marks_from.php
+<?php
+// Retrieve student information from cookies
+$name = isset($_COOKIE['name']) ? $_COOKIE['name'] : '';
+$class = isset($_COOKIE['class']) ? $_COOKIE['class'] : '';
+$address = isset($_COOKIE['address']) ? $_COOKIE['address'] : '';
+
+
+if ($name && $class && $address) {
+ 
+// Display marks form if student information is available
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Marks</title>
+</head>
+<body>
+<h2>Student Marks</h2>
+<form action="marksheet.php" method="post">
+<input type="hidden" name="name" value="<?php echo $name; ?>">
+<input type="hidden" name="class" value="<?php echo $class; ?>">
+<input type="hidden" name="address" value="<?php echo $address;
+?>">
+
+
+<label for="java">Java:</label>
+<input type="number" id="java" name="java" required><br><br>
+<label for="php">PHP:</label>
+<input type="number" id="php" name="php" required><br><br>
+
+
+<label for="st">ST:</label>
+<input type="number" id="st" name="st" required><br><br>
+
+
+<label for="it">IT:</label>
+ 
+<input type="number" id="it" name="it" required><br><br>
+
+
+<label for="practical">Practical:</label>
+<input type="number" id="practical" name="practical" required><br><br>
+
+
+<label for="project">Project:</label>
+<input type="number" id="project" name="project" required><br><br>
+
+
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+<?php
+} else {
+// Redirect to index page if student information is missing header("Location: index.php");
+exit();
+} ?>
+OutPut:
+ 
+
+ 
+
+
+Marks.php
+<?php
+// Set student information as cookies setcookie('name',
+$_POST['name'], time() + (86400 * 30), "/"); setcookie('class',
+$_POST['class'], time() + (86400 * 30), "/"); setcookie('address',
+$_POST['address'], time() + (86400 * 30), "/");
+
+
+// Redirect to marks form header("Location: marks_form.php"); exit();
+?>
+Marksheet.php
+<?php
+// Retrieve student information and marks from POST data
+$name = $_POST['name'];
+$class = $_POST['class'];
+$address = $_POST['address'];
+ 
+$java = $_POST['java'];
+$php = $_POST['php'];
+$st = $_POST['st'];
+$it = $_POST['it'];
+$practical = $_POST['practical'];
+$project = $_POST['project'];
+
+
+// Calculate total marks and percentage
+$total_marks = $java + $php + $st + $it + $practical + $project;
+$percentage = ($total_marks / 600) * 100;
+
+
+// Display mark sheet
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Marksheet</title>
+</head>
+<body>
+<h2>Student Marksheet</h2>
+<p><strong>Name:</strong> <?php echo $name; ?></p>
+<p><strong>Class:</strong> <?php echo $class; ?></p>
+<p><strong>Address:</strong> <?php echo $address; ?></p>
+<p><strong>Marks:</strong></p>
+ 
+<ul>
+<li>Java: <?php echo $java; ?></li>
+<li>PHP: <?php echo $php; ?></li>
+<li>ST: <?php echo $st; ?></li>
+<li>IT: <?php echo $it; ?></li>
+<li>Practical: <?php echo $practical; ?></li>
+<li>Project: <?php echo $project; ?></li>
+</ul>
+<p><strong>Total Marks:</strong> <?php echo $total_marks; ?></p>
+<p><strong>Percentage:</strong> <?php echo $percentage; ?>%</p>
+</body>
+</html> Output:
+
+
+ 
+
+6.	Write a program to create a shopping mall. User must be allowed to do purchase from three pages. Each page should have a page total. The fourth page should display a bill, which consists of a page total of whatever the purchase has been done and print the total. (Use $ SESSION).
+Code:
+1.php
+<?php session_start();
+if (isset($_POST['submit'])) {
+$_SESSION['pname'] = "KACHI GHANI MUSTARD OIL (L)";
+$_SESSION['amt'] = "100";
+$_SESSION['total'] += 100;
+}
+?>
+<html>
+<head>
+</head>
+<body>
+<h1><center>Shopping Mall</center> Total : <span style="color:red;"><?php echo $_SESSION['total']; ?></span></h1>
+<table style="width:100%">
+<tr>
+<th>Product 1:</th>
+</tr>
+</table>
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+ 
+<table style="width:100%" border=1>
+<tr>
+<th>Product Image</th>
+<th>Product Name</th>
+<th>Price</th>
+<th>Action</th>
+</tr>
+<tr>
+<th><img src="img/1.png" height="200" width="200"></th>
+<th>KACHI GHANI MUSTARD OIL (L)</th>
+<th>100</th>
+<th><input type="submit" name="submit" value="Buy"></th>
+</tr>
+</table>
+</form>
+</body>
+</html> Final.php <?php session_start();
+?>
+<html>
+<head> <script> function myFunction() { window.print();
+}
+ 
+</script>
+</head>
+<body>
+<h1><center>Shopping Mall</center> Total : <span style="color:red;"><?php echo $_SESSION['total']; ?></span></h1>
+<table style="width:100%">
+<tr>
+<th><a href="1.php">1</a></th>
+<th><a href="2.php">2</a></th>
+<th><a href="3.php">3</a></th>
+<th><a href="final.php">Final</a></th>
+</tr>
+</table>
+<br>
+<br>
+<h2><center>Final Bill</center> Total :</h2>
+<table style="width:100%" border=1>
+<tr>
+<th>Product Name</th>
+<th>Amount</th>
+<th>Total</th>
+<th>Print</th>
+</tr>
+<tr>
+<th><?php if(isset($_SESSION['pname'])){echo
+$_SESSION['pname'];}?></th>
+ 
+<th><?php if(isset($_SESSION['amt'])){echo $_SESSION['amt'];}?></th>
+<th><span style="color:red;"><?php if(isset($_SESSION['total'])){echo
+$_SESSION['total'];}?></span></th>
+<th><button onclick="myFunction()">Print</button></th>
+</tr>
+</table>
+</body>
+</html> OutPut:
+
+
+
+ 
+
+
+
+7.	Write a PHP script that creates the following table using for loops. Add cellpadding=-"3px" and cellspacing="Opx" to the table tag
+Code:
+<!DOCTYPE html>
+<html>
+<body>
+<table align="left" border="1" cellpadding="3" cellspacing="0">
+<?php
+// Outer loop for creating rows in the table for($i=1;
+$i<=6; $i++)
+{	echo "<tr>"; // Start a new table row
+
+// Inner loop for creating cells in each row for ($j=1; $j<=5; $j++)
+{
+
+// Print the multiplication table in each cell echo "<td>$i * $j = " . $i * $j . "</td>";
+}
+
+
+
+echo "</tr>"; // End the table row
+}
+
+?>
+</table>
+ 
+</body>
+</html>
+
+
+
+OutPut:
+
+ 
+
+
+8.	Create an online flight registration form. On the first page accept name, address, birthdate, and mobile number. On the second page accept flight details (flight name, source, destination, departure date-time and charges. Insert all the details in database and on the third page display the flight details booked by the customer.[Use HTMLS,CSS3 & Session]
+Code:
+Index.php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flight Registration - User Details</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h2>Flight Registration - User Details</h2>
+<form action="process.php" method="post">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required><br><br>
+<label for="address">Address:</label>
+<input type="text" id="address" name="address" required><br><br>
+<label for="birthdate">Birthdate:</label>
+<input type="date" id="birthdate" name="birthdate" required><br><br>
+<label for="mobile">Mobile Number:</label>
+ 
+<input type="text" id="mobile" name="mobile" required><br><br>
+<input type="submit" value="Next">
+</form>
+</div>
+</body>
+</html>
+
+
+OutPut:
+
+
+
+
+
+Flight_details.php:
+<?php session_start();
+?>
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flight Registration - Flight Details</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h2>Flight Registration - Flight Details</h2>
+<form action="process.php" method="post">
+<label for="flight_name">Flight Name:</label>
+<input type="text" id="flight_name" name="flight_name" required><br><br>
+<label for="source">Source:</label>
+<input type="text" id="source" name="source" required><br><br>
+<label for="destination">Destination:</label>
+<input type="text" id="destination" name="destination" required><br><br>
+<label for="departure_datetime">Departure Date-Time:</label>
+<input type="datetime-local" id="departure_datetime" name="departure_datetime" required><br><br>
+<label for="charges">Charges:</label>
+<input type="text" id="charges" name="charges" required><br><br>
+<input type="submit" value="Submit">
+<input type="hidden" name="action" value="flight_details">
+ 
+</form>
+</div>
+</body>
+</html> OutPut:
+
+
+
+
+Conformation.php
+<?php session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flight Registration - Confirmation</title>
+ 
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h2>Flight Registration - Confirmation</h2>
+<h3>User Details:</h3>
+<p>Name: <?php echo $_SESSION['name']; ?></p>
+<p>Address: <?php echo $_SESSION['address']; ?></p>
+<p>Birthdate: <?php echo $_SESSION['birthdate']; ?></p>
+<p>Mobile Number: <?php echo $_SESSION['mobile']; ?></p>
+<h3>Flight Details:</h3>
+<p>Flight Name: <?php echo $_SESSION['flight_name']; ?></p>
+<p>Source: <?php echo $_SESSION['source']; ?></p>
+<p>Destination: <?php echo $_SESSION['destination']; ?></p>
+<p>Departure Date-Time: <?php echo $_SESSION['departure_datetime'];
+?></p>
+<p>Charges: <?php echo $_SESSION['charges']; ?></p>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+Output:
+ 
+
+ 
+
+
+Database:
+
+ 
+
+
+
+9.	Design a web application for registration of student(attributes stud_ id,stud name,stud_contact no,stud emailid,stud _dob,gender, username,pwd) Code:
+Registration_form:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="register.php" method="post">
+<label for="stud_name">Name:</label>
+<input type="text" id="stud_name" name="stud_name" required><br><br>
+
+
+<label for="stud_contact">Contact Number:</label>
+<input type="text" id="stud_contact" name="stud_contact" required><br><br>
+
+
+<label for="stud_email">Email:</label>
+<input type="email" id="stud_email" name="stud_email" required><br><br>
+ 
+<label for="stud_dob">Date of Birth:</label>
+<input type="date" id="stud_dob" name="stud_dob" required><br><br>
+<label for="gender">Gender:</label>
+<input type="radio" id="male" name="gender" value="Male" required>
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="Female" required>
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="Other" required>
+<label for="other">Other</label><br><br>
+
+
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" required><br><br>
+
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br><br>
+
+
+<input type="submit" value="Register">
+</form>
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Output:
+
+
+
+
+
+
+
+DataBase:
+
+ 
+
+
+
+10.	Design a web application to accept and insert 5 records of the doctor into the database(attributes-doc no,doc_name,city,address,date_of joining,area_of specialization). Sort the doctor's records by date_of joining and display on the next page.
+Code:
+Doctor_ragistration_form:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doctor Registration Form</title>
+</head>
+<body>
+<h2>Doctor Registration Form</h2>
+<form action="insert_doctor.php" method="post">
+<label for="doc_name">Doctor Name:</label>
+<input type="text" id="doc_name" name="doc_name" required><br><br>
+
+
+<label for="city">City:</label>
+<input type="text" id="city" name="city" required><br><br>
+
+
+<label for="address">Address:</label>
+<input type="text" id="address" name="address" required><br><br>
+ 
+<label for="date_of_joining">Date of Joining:</label>
+<input type="date" id="date_of_joining" name="date_of_joining" required><br><br>
+
+<label for="area_of_specialization">Area of Specialization:</label>
+<input type="text" id="area_of_specialization" name="area_of_specialization" required><br><br>
+
+
+<input type="submit" value="Submit">
+</form>
+</body> </html> output:
+
+
+
+
+
+
+
+
+
+
+
+Insert_doctor_php:
+ 
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$dbname = "doctor_records_db";
+
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+
+// Check connection if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error);
+}
+
+
+// Prepare and bind parameters
+$stmt = $conn->prepare("INSERT INTO doctors (doc_name, city, address, date_of_joining, area_of_specialization) VALUES (?, ?, ?, ?, ?)");
+$stmt->bind_param("sssss", $doc_name, $city, $address, $date_of_joining,
+$area_of_specialization);
+
+
+// Set parameters and execute
+$doc_name = $_POST['doc_name'];
+$city = $_POST['city'];
+$address = $_POST['address'];
+$date_of_joining = $_POST['date_of_joining'];
+$area_of_specialization = $_POST['area_of_specialization']; $stmt->execute();
+ 
+echo "Doctor record inserted successfully";
+
+
+$stmt->close();
+$conn->close();
+?>
+Output:
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Shri Khanderai Pratishthan’s
+DNYANSAGAR INSTITUTE OF MANAGEMENT &
+RESEARCH
+Approved by AICTE, New Delhi, Affiliated to Savitribai Phule Pune University
+
+
+ 
+
+Academic Year 2023-24 FYMCA –SEM II
+Sub: Advanced Internet Technology Part C
+INDEX
+
+Sr.No	Name of the Program	Date	Page No	Sign
+
+
+
+
+1	Create an angular project which has HTML template which has three courses (angular, NodeJS, JavaScript). Create custom component of three above courses. If you click on register button then the message (You have registered	course)
+will be displayed on the web page. (Note:
+Use services and dependency injection)		3	
+
+
+2	Create an angular project which has HTML template which has the following format.
+When you click on any link respective component should be display on the same
+page. [Use routing]		7	
+3	Using angular display the 10 students details in table format (using directives and array to store data)		10	
+
+
+4	Create an angular program which accept the employee information (eid, ename, department, salary, doj) and display all information in tabular format on the same
+page.		12	
+
+
+5	Create an angular program which accepts a number from user and check whether it is even or odd number.		15	
+ 
+
+
+
+
+6	Create an angular program which display the product details (pid , pname, price, quantity, available, image) The product which are “Available” -apply background colour -green “Not Available” -apply
+background colour -red.		17	
+
+7	Create a node.js file that will convert the
+output “hello world” into the uppercase letters.		20	
+
+8	Create a Node.js Application that performs following operations on Buffer data. 1.Concat 2.Compare 3.Copy		21	
+
+9	Write a program to read query string using url property in node.js		22	
+
+
+10	Create a node.js application that uses user defined module circle.js which exports functions area() and circumference() and display details on console.		23	
+11	Create node.js application that uses local module to find age of person after accepting date of birth.		24	
+ 
+
+
+
+
+
+
+Q1. Create an angular project which has HTML template which has three courses (angular, NodeJS, JavaScript). Create custom component of three above courses. If you click on register button then the message (You have registered course)will be displayed on the web page. (Note: Use services and dependency injection)
+
+Code:
+ app.component.html:
+
+<div class="container">
+<h1>Course Registration</h1>
+<div class="courses">
+<div class="course angular">
+<h2>Angular</h2>
+<button (click)="register('Angular')">Register</button>
+<div class="registration-message" [hidden]="registeredCourse !== 'Angular'">You have registered Angular course</div>
+</div>
+<div class="course nodejs">
+<h2>NodeJS</h2>
+<button (click)="register('NodeJS')">Register</button>
+<div class="registration-message" [hidden]="registeredCourse !== 'NodeJS'">You have registered NodeJS course</div>
+</div>
+<div class="course javascript">
+<h2>JavaScript</h2>
+<button (click)="register('JavaScript')">Register</button>
+<div	class="registration-message"	[hidden]="registeredCourse	!== 'JavaScript'">You have registered JavaScript course</div>
+</div>
+</div>
+</div>
+
+
+ course.component.html:
+<div class="course">
+<h2>{{ courseName }}</h2>
+<h2>{{ courseName }}</h2>
+<h2>{{ courseName }}</h2>
+<button (click)="register()">Register</button>
+ 
+<div *ngIf="registered">You have registered {{ courseName }} course</div>
+</div>
+
+
+
+
+
+
+ app.component.css:
+
+.container { width: 80%; margin: auto; text-align: center;
+}
+
+.courses {	display: flex; justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.course {	background-color: #f0f0f0; padding: 20px;		margin: 10px;	border- radius: 10px;		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);		width: 30%;
+}
+
+.course h2 {	margin- bottom: 10px;
+}
+
+.course button { background-color: #007bff; color: #fff;	border: none;
+padding: 8px 16px;	border- radius: 5px;	cursor: pointer;
+}
+
+.course button:hover { background-color: #0056b3;
+}
+
+.course div {	margin- top: 10px;
+}
+ 
+
+
+
+
+
+
+ app.component.ts:
+import { Component } from '@angular/core';
+
+@Component({
+selector: 'app-root', templateUrl: './app.component.html', styleUrls: ['./app.component.css'],
+standalone: true // Add this line to mark the component as standalone
+})
+export class AppComponent { registeredCourse: string | null = null;
+
+register(course: string) { this.registeredCourse = course;
+}
+}
+
+ course.service.ts:
+import { Injectable } from '@angular/core';
+
+@Injectable({ providedIn: 'root'
+})
+export class CourseService { registeredCourses: string[] = [];
+constructor() {} register(courseName: string) {
+this.registeredCourses.push(courseName);
+}
+}
+
+ course.component.ts:
+import { Component, Input } from '@angular/core'; import { CourseService } from '../course.service';
+
+@Component({
+selector: 'app-course', templateUrl: './course.component.html', styleUrls: ['./course.component.css']
+})
+ 
+export class CourseComponent {
+@Input() courseName: string | undefined; registered: boolean = false; constructor(private courseService: CourseService) {}
+register() { this.registered = true;
+this.courseService.register('this.courseName');
+} }
+Output:
+
+ 
+Q2. Create an angular project which has HTML template which has the following format. When you click on any link respective component should be display on the same page. [Use routing]
+
+ app.component.html:
+
+<header>
+<h1>Angular Project</h1>
+<nav>
+<ul>
+<li><a routerLink="/home">Home</a></li>
+<li><a routerLink="/about">About</a></li>
+<li><a routerLink="/contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<div class="container">
+<router-outlet></router-outlet>
+</div>
+</main>
+
+ home.component.html:
+
+<div class="container">
+<div class="intro">
+<h1 class="title">Welcome to Our Website</h1>
+<p class="subtitle">Discover amazing courses to enhance your skills</p>
+</div>
+
+<div class="card">
+<h2 class="card-title">Angular Course</h2>
+<p class="card-content">Learn Angular, a powerful framework for building dynamic web applications.</p>
+</div>
+
+<div class="card">
+<h2 class="card-title">NodeJS Course</h2>
+<p class="card-content">Explore NodeJS, a JavaScript runtime built on Chrome's V8 JavaScript engine.</p>
+</div>
+
+<div class="card">
+<h2 class="card-title">JavaScript Course</h2>
+ 
+<p class="card-content">Master JavaScript, the programming language of the web.</p>
+</div>
+</div>
+
+
+ app.component.css:
+
+.container {	max-width: 800px;	margin: 0 auto; padding: 20px;	font-family: Arial, sans-serif;
+}
+
+h1 {	text-align:
+center;	color:
+#333;
+}
+
+nav ul {	list-style- type: none;		padding:
+0;	margin: 20px 0;
+}
+
+nav ul li { display: inline;
+}
+
+nav ul li a {		text- decoration: none;	padding: 10px 20px;	color: #333; background-color: #f0f0f0; border-radius: 5px;
+transition: background-color 0.3s;
+}
+
+nav ul li a:hover { background-color: #ccc;
+}
+
+.router-container { padding-top: 20px;
+}
+
+.router-link-active { font-weight: bold;
+}
+ 
+
+
+
+
+
+ app.routes.ts:
+import { NgModule } from '@angular/core'; import { RouterModule, Routes } from '@angular/router'; import { HomeComponent } from './home/home.component'; import { AboutComponent } from './about/about.component'; import { ContactComponent } from './contact/contact.component';
+
+export const routes: Routes = [
+{ path: '', redirectTo: '/home', pathMatch: 'full' },
+{ path: 'home', component: HomeComponent },
+{ path: 'about', component: AboutComponent },
+{ path: 'contact', component: ContactComponent }
+];
+
+@NgModule({
+imports: [RouterModule.forRoot(routes)], exports: [RouterModule]
+})
+export class AppRoutingModule { }
+
+OutPut:
+ 
+ 
+
+Q.3 Using angular display the 10 students details in table format (using directives and array to store data)
+
+ student-table.component.html:
+<table>
+<thead>
+<tr>
+<th>Student ID</th>
+<th>Name</th>
+<th>Age</th>
+<th>Grade</th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let student of students">
+<td>{{ student.id }}</td>
+<td>{{ student.name }}</td>
+<td>{{ student.age }}</td>
+<td>{{ student.grade }}</td>
+</tr>
+</tbody>
+</table>
+
+ student-table.component.ts:
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+selector: 'app-student-table', templateUrl: './student-table.component.html', styleUrls: ['./student-table.component.css']
+})
+export class StudentTableComponent implements OnInit {
+
+students: any[] = [
+{ id: 1, name: 'John Doe', age: 20, grade: 'A' },
+{ id: 2, name: 'Jane Smith', age: 21, grade: 'B' },
+{ id: 3, name: 'Michael Johnson', age: 19, grade: 'A' },
+{ id: 4, name: 'Emily Davis', age: 22, grade: 'B' },
+{ id: 5, name: 'Robert Wilson', age: 20, grade: 'C' },
+{ id: 6, name: 'Sophia Martinez', age: 21, grade: 'A' },
+{ id: 7, name: 'William Anderson', age: 19, grade: 'B' },
+{ id: 8, name: 'Olivia Thomas', age: 22, grade: 'C' },
+{ id: 9, name: 'James White', age: 20, grade: 'A' },
+{ id: 10, name: 'Emma Brown', age: 21, grade: 'B' }
+];
+ 
+
+constructor() { }
+
+ngOnInit(): void {
+}
+
+}
+
+ app.component.html:
+<div style="text-align:center">
+<h1>
+Welcome to Student Table App!
+</h1>
+</div>
+<app-student-table></app-student-table>
+
+OutPut:
+
+ 
+
+
+Q4. Create an angular program which accept the employee information (eid, ename, department, salary, doj) and display all information in tabular format on the same page.
+
+ employee.component.html:
+<div>
+<h1>Employee Information</h1>
+<form #employeeForm="ngForm" (ngSubmit)="onSubmit(employeeForm)">
+<div>
+<label for="eid">Employee ID:</label>
+<input type="text" id="eid" name="eid" ngModel required>
+</div>
+<div>
+<label for="ename">Employee Name:</label>
+<input type="text" id="ename" name="ename" ngModel required>
+</div>
+<div>
+<label for="department">Department:</label>
+<input type="text" id="department" name="department" ngModel required>
+</div>
+<div>
+<label for="salary">Salary:</label>
+<input type="number" id="salary" name="salary" ngModel required>
+</div>
+<div>
+<label for="doj">Date of Joining:</label>
+<input type="date" id="doj" name="doj" ngModel required>
+</div>
+<button type="submit" [disabled]="!employeeForm.valid">Submit</button>
+</form>
+
+<table *ngIf="employees.length > 0">
+<thead>
+<tr>
+<th>Employee ID</th>
+<th>Employee Name</th>
+<th>Department</th>
+<th>Salary</th>
+<th>Date of Joining</th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let employee of employees">
+<td>{{ employee.eid }}</td>
+<td>{{ employee.ename }}</td>
+ 
+<td>{{ employee.department }}</td>
+<td>{{ employee.salary }}</td>
+<td>{{ employee.doj }}</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+ employee.component.ts:
+import { Component } from '@angular/core';
+
+@Component({
+selector: 'app-employee', templateUrl: './employee.component.html', styleUrls: ['./employee.component.css']
+})
+export class EmployeeComponent { employees: any[] = [];
+
+onSubmit(form: any) {			if (form.valid) {	this.employees.push({ eid: form.value.eid,		ename: form.value.ename,	department: form.value.department,				salary: form.value.salary,
+doj: form.value.doj
+});
+form.resetForm();
+}
+}
+}
+
+ app.module.ts:
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms'; // Import FormsModule here
+
+import { AppComponent } from './app.component';
+import { EmployeeComponent } from './employee/employee.component';
+
+@NgModule({ declarations: [
+AppComponent, EmployeeComponent
+],
+imports: [ BrowserModule,
+ 
+FormsModule // Add FormsModule to imports array
+],
+providers: [],
+bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+
+
+
+
+
+OutPut:
+ 
+ 
+
+
+
+
+Q5. Create an angular program which accepts a number from user and check whether it is even or odd number.
+
+ app.component.html:
+<div>
+<h1>Even/Odd Checker</h1>
+<div>
+<label for="numberInput">Enter a number:</label>
+<input type="number" id="numberInput" name="numberInput" [(ngModel)]="userNumber">
+<button (click)="checkNumber()">Check</button>
+</div>
+<div *ngIf="result !== null">
+<p>The number {{ userNumber }} is {{ result }}.</p>
+</div>
+</div>
+
+ app.component.ts:
+import { Component } from '@angular/core';
+
+@Component({
+selector: 'app-root', templateUrl: './app.component.html', styleUrls: ['./app.component.css']
+})
+export class AppComponent { userNumber!: number;
+result: string | undefined;
+
+checkNumber() {
+if (this.userNumber % 2 === 0) { this.result = 'even';
+} else {
+this.result = 'odd';
+}
+}
+}
+ 
+
+
+
+
+
+
+
+
+
+Output:
+ 
+Q6. Create an angular program which display the product details (pid , pname, price, quantity, available, image) The product which are“Available”
+-apply background colour -green “Not Available” -apply background colour -red.
+
+ product-list.component.html:
+<div class="product-list">
+<div *ngFor="let product of products" [ngClass]="{'available': product.available, 'notavailable': !product.available}" class="product-item">
+<img [src]="'assets/' + product.image" alt="{{product.pname}}">
+<div class="product-item-content">
+<p class="product-name">{{product.pname}}</p>
+<p class="product-price">Price: ${{product.price}}</p>
+<p class="product-quantity">Quantity: {{product.quantity}}</p>
+<p class="product-availability">{{product.available ? 'Available' : 'Not Available'}}</p>
+</div>
+</div>
+</div>
+
+ product-list.component.ts:
+import { Component, OnInit } from '@angular/core'; import
+{ ProductService } from '../product.service';
+
+@Component({
+selector: 'app-product-list', templateUrl: './product-list.component.html', styleUrls: ['./product-list.component.css']
+})
+export class ProductListComponent implements OnInit { products: any[] = [];
+
+constructor(private productService: ProductService) { }
+
+ngOnInit(): void { this.productService.getProducts().subscribe(data => {
+this.products = data;
+});
+}
+}
+ 
+
+
+ products.json:
+[
+{
+"pid": 1, "pname": "Oil",
+"price": 5.99,
+"quantity": 50, "available": true, "image": "oil.jpg"
+},
+{
+"pid": 2,
+"pname": "Sugar",
+"price": 3.49,
+"quantity": 0, "available": false, "image": "sugar.jpg"
+},
+{
+"pid": 3, "pname": "Soap",
+"price": 1.99,
+"quantity": 30, "available": true, "image": "soap.jpg"
+}
+]
+
+ app.component.html:
+<h1>Welcome to Product Details </h1>
+<app-product-list></app-product-list>
+ 
+
+
+
+
+ Output:
+ 
+
+
+Q7. Create a node.js file that will convert the output “hello world” into the uppercase letters
+
+Code:
+
+const message = "hello world"; console.log(message.toUpperCase());
+
+Output:
+
+ 
+
+Q.8	Create a Node.js Application that performs following operations on Buffer data. 1.Concat 2.Compare 3.Copy
+
+Code:
+
+const buffer1 = Buffer.from('Hello '); const buffer2 = Buffer.from('World');
+const concatenatedBuffer = Buffer.concat([buffer1, buffer2]); console.log('Concatenated Buffer:', concatenatedBuffer.toString());
+
+
+const buffer3 = Buffer.from('ABC'); const buffer4 = Buffer.from('ABD'); const comparisonResult = Buffer.compare(buffer3, buffer4); console.log('Comparison Result:', comparisonResult);
+
+
+const bufferToCopy = Buffer.from('Copy me!'); const copiedBuffer = Buffer.alloc(bufferToCopy.length); bufferToCopy.copy(copiedBuffer); console.log('Copied Buffer:', copiedBuffer.toString());
+
+Output:
+ 
+Q.9	Write a program to read query string using url property in node.js
+
+Code:
+const url = require('url');
+
+const urlString = 'http://example.com/path?name=John&age=30'; const parsedUrl = url.parse(urlString, true);
+const queryParameters = parsedUrl.query; console.log('Query Parameters:', queryParameters);
+
+Output:
+ 
+ 
+
+
+
+
+Q.10	Create a node.js application that uses user defined module circle.js which exports functions area() and circumference() and display details on console.
+Code:
+
+// circle.js
+
+exports.area = function(radius) { return Math.PI * radius * radius;
+};
+exports.circumference = function(radius) { return 2 * Math.PI * radius;
+};
+
+//app.js
+const circle = require('./circle'); const radius = 5;
+console.log('Area of the circle with radius', radius, 'is', circle.area(radius)); console.log('Circumference of the circle with radius', radius, 'is', circle.circumference(radius));
+
+
+Output:
+ 
+ 
+
+
+
+
+Q.11	Create node.js application that uses local module to find age of person after accepting date of birth.
+
+Code:
+function calculateAge(dateOfBirth) { const dob = new Date(dateOfBirth); const today = new Date();
+
+let age = today.getFullYear() - dob.getFullYear(); const monthDiff = today.getMonth() - dob.getMonth();
+
+if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < dob.getDate())) { age--;
+}
+
+return age;
+}
+
+
+function main() {
+const readline = require('readline').createInterface({ input: process.stdin,
+output: process.stdout
+});
+
+readline.question('Enter your date of birth (YYYY-MM-DD): ', (dob) => { const age = calculateAge(dob);	console.log(`Your age is ${age} years.`);
+readline.close();
+});
+}
+
+
+main();
+ 
+
+
+Output:
